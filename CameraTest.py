@@ -71,11 +71,11 @@ while(True):
     cv2.imshow('Video frame', frame)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
-        vid_name = "OpenCV_Video_{}.mov".format(vid_counter)
-        cv2.imwrite(vid_name, frame)
-        print("{} written!".format(vid_name))
-        vid_counter +=1
-        cv2.waitkey(0)
+        #vid_name = "OpenCV_Video_{}.mov".format(vid_counter)
+        #cv2.imwrite(vid_name, frame)
+        #print("{} written!".format(vid_name))
+        #vid_counter +=1
+        #cv2.waitkey(0)
         break
 
     video.release()

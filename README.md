@@ -8,6 +8,10 @@ This program was created as a project in which you are better able to understand
 # VideoTest
     1. This program will allow you to take a 10 second video also utilizing the local camera application on your desired computer
 
-# FacialTest
+# DetectTest
+    1. this program lets you run a live feed from the video camera and once it recognizes faces it will box it into a green rectangle
+
+# Image/VideoDetect
     1. This program will take the photo or video that you chose and run a facial recognizition against it. 
     2. Utilizing this program we are showing the capabilities of a camera that can take a video and take a photo once it recognizes a face within the frame.
+

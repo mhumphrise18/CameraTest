@@ -3,6 +3,7 @@ from mailbox import mboxMessage
 import cv2
 import numpy as np
 
+####### I NEED TO FIX Pulling in a video ###########
 
 # Code to record a 10sec video
 video = cv2.VideoCapture(0)
